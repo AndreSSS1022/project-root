@@ -1,0 +1,86 @@
+/* App.css */
+/* Importamos las fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to bottom, #0f2b46, #000);
+  min-height: 100vh;
+  color: white;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+/* Estilos para los componentes */
+.navbar-brand img {
+  margin-right: 8px;
+}
+
+.local-card {
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.local-card:hover {
+  transform: translateY(-5px);
+}
+
+.local-image {
+  height: 180px;
+  object-fit: cover;
+}
+
+.footer-icon {
+  color: white;
+  margin: 0 10px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.footer-icon:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-decoration: none;
+}
+
+.feature-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.feature-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.feature-list li:before {
+  content: "•";
+  color: #17a2b8;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Media queries para responsive */
+@media (max-width: 768px) {
+  .footer-icon {
+    width: 32px;
+    height: 32px;
+    margin: 0 5px;
+  }
+}

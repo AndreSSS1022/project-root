@@ -1,0 +1,52 @@
+{
+    "name":"project-root",
+    "version":"0.0.1",
+
+    "dependencies": 
+    {
+        "_comment0":"*En react normalmente se involucran: Rutas, componentes y paginas",
+
+        "_comment1":"*Se importa la libreria react",
+        "react":"^18.2.0",
+
+        "_comment2":"Se utiliza react boostrap para los ",
+        "react-boostrap":"^2.5.0",
+
+        "_comment3":"*Se utiliza react dom para la renderizacion de componentes",
+        "react-dom":"^18.2.0",
+
+        "_comment4":"Se utiliza para gestionar el grid o cuadricula",
+        "react-grid-system":"8.1.6",
+
+        "_comment5":"*Se utiliza para gestionar las rutas o vinculos",
+        "react-router-dom":"^6.4.2",
+
+        "_comment6":"*Se utiliza para importar liberias externas/internas",
+        "react-scripts":"5.0.1",
+
+        "_comment7":"Es la libreria para consumir servicios web / API",
+        "axios":"^1.1.3",
+
+        "_comment8":"Es la libreria encargada para gestionar variables de configuracion",
+        "dotenv":"^16.0.3",
+
+        "_comment9":"Es la libreria encargada de gestionar la subida de archivos en la aplicacion",
+        "fs":"^0.0.1",
+
+        "_comment10":"Es la libreria encargada de generar reportes de desempeño de la app",
+        "web-vitals":"^2.1.4"
+    },
+
+    "_comment-scripts":"La etiqueta scripts me indica la forma en que voy a correr la aplicacion(con ide o compilada)",
+    "scripts":
+    {
+        "_comment11":"Inicia la aplicacion en modo programacion como correrla con un ide",
+        "start":"react-scripts start",
+
+        "_comment12":"Inicia la aplicacion compilada el codigo fuente no es legible, un archivo archivo comprimido",
+        "build":"react-scripts build"
+
+    }
+
+
+}
