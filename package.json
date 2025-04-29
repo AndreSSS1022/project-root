@@ -25,17 +25,3 @@
         "build": "react-scripts build"
     }
 }
-
-    "_comment-scripts":"La etiqueta scripts me indica la forma en que voy a correr la aplicacion(con ide o compilada)",
-    "scripts":
-    {
-        "_comment11":"Inicia la aplicacion en modo programacion como correrla con un ide",
-        "start":"react-scripts start",
-
-        "_comment12":"Inicia la aplicacion compilada el codigo fuente no es legible, un archivo archivo comprimido",
-        "build":"react-scripts build"
-
-    }
-
-
-
